@@ -1,0 +1,36 @@
+
+.offersContainer {
+    display: flex;
+    width: 100%;
+    height: 110vh;
+  }
+  
+  .video-section, .text-section {
+    width: 50%;
+    
+  }
+  
+  .video-section video {
+    width: 110%;
+    height: 110vh;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  
+  .text-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 1.2em;
+    flex-direction: column; /* Stacks elements vertically */
+    gap: 10px; /* Space between each item */
+    padding: 20px;
+    align-items: flex-start; /* Aligns items to the left */
+    width: 70%;
+  }
+
+  
+
