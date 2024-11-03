@@ -8,6 +8,7 @@ import { Carousel } from "./componets/Csrousel";
 import { Offers } from "./componets/Offers";
 import { ContactForm } from "./componets/ContactForm";
 import { Referrals } from "./componets/Referrals";
+import { Image }  from "./componets/image"
 
 // import { Video } from "./componets/Video";
 function App() {
@@ -17,7 +18,6 @@ function App() {
       <div className="App">
         <Helmet>
           <meta charSet="utf-8" />
-          
           <title>ExPhys Partners LLC</title>
           <link rel="canonical" href="http://mysiteExample" />
           <meta name="description" content="exercise physiology" />
@@ -25,6 +25,7 @@ function App() {
         <div className="background">
           <Header />
           <Carousel />
+          <Image />
           <Home />
           <div className="parallax-image2"></div>
           <Boxes />
