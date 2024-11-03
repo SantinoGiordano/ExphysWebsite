@@ -24,7 +24,6 @@ function App() {
         <div className="background">
           <Header />
           <Carousel />
-          <Image />
           <Home />
           <div className="parallax-image2"></div>
           <Boxes />
