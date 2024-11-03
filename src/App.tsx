@@ -8,7 +8,6 @@ import { Carousel } from "./componets/Csrousel";
 import { Offers } from "./componets/Offers";
 import { ContactForm } from "./componets/ContactForm";
 import { Referrals } from "./componets/Referrals";
-import { Image }  from "./componets/image"
 
 // import { Video } from "./componets/Video";
 function App() {
