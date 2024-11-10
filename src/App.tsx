@@ -6,7 +6,7 @@ import { Home } from "./componets/Home";
 import { Boxes } from "./componets/Boxes";
 import { Carousel } from "./componets/Csrousel";
 import { Offers } from "./componets/Offers";
-import { ContactForm } from "./componets/ContactForm";
+// import { ContactForm } from "./componets/ContactForm";
 import { Referrals } from "./componets/Referrals";
 
 // import { Video } from "./componets/Video";
@@ -29,7 +29,7 @@ function App() {
           <Boxes />
           <Offers />
           <Referrals/>
-          <ContactForm />
+          {/* <ContactForm /> */}
         </div>
       </div>
     </>
